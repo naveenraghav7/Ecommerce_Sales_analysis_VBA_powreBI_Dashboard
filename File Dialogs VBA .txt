@@ -1,0 +1,20 @@
+#File selection using File Dialogs and Excel File
+
+option Explicit 
+Sub choose_file()
+On Error Resume Next
+Dim fd As Office.fileDialog
+Set fd = Application.FileDialog(msoFileDialogoption)
+
+Dim m
+fd.show
+m = fd.selectedItems(1)
+
+If m = "" Then
+MsgBox "File not selected"
+Exit Sub
+Else
+Workbooks.Open (m)
+End If
+
+End Sub
