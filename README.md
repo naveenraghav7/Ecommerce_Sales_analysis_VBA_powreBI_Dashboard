@@ -1,4 +1,4 @@
-# Ecommerce_Sales_analysis_powreBI_Dashboard
+# Ecommerce_Sales_analysis_VBA_powreBI_Dashboard
 
 Designed and developed an interactive ecommerce sales dashboard using the Power BI tool.
 
